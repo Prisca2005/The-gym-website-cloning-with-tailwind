@@ -6,40 +6,74 @@
   <title>LUGX Gaming</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-blue-500 text-white font-sans">
+<body >
 
   
-  <header class="flex justify-between items-center py-4 px-8">
-    <div class="text-2xl font-bold flex items-center">
-      <img src="img/logo.png" alt=" website logo">
-    </div>
-    <nav class="flex space-x-8">
-      <a href="#" class="text-white hover:text-blue-300">Home</a>
-      <a href="#" class="text-white hover:text-blue-300">Our Shop</a>
-      <a href="#" class="text-white hover:text-blue-300">Product Details</a>
-      <a href="#" class="text-white hover:text-blue-300">Contact Us</a>
-    </nav>
-    <a href="#" class="bg-red-500 hover:bg-red-600 text-white py-2 px-4 rounded-full">SIGN IN</a>
-  </header>
+  <header
+  class=" fixed top-0 left-0 w-full z-50 text-white font-sans flex justify-between items-center py-4 px-8 bg-cover bg-center"
+  style="background-image: url('img/06_footer-bg.jpg');">
+  <div class="text-2xl font-bold flex items-center">
+    <img src="img/logo.png" alt="website logo">
+  </div>
+  <nav class="flex space-x-10">
+    <a href="#" class="text-white hover:text-blue-300">Home</a>
+    <a href="#" class="text-white hover:text-blue-300">Our Shop</a>
+    <a href="#" class="text-white hover:text-blue-300">Product Details</a>
+    <a href="#" class="text-white hover:text-blue-300">Contact Us</a>
+  </nav>
+  <a href="#" class="bg-red-500 hover:bg-red-600 text-white py-2 px-4 rounded-full">SIGN IN</a>
+</header>
 
-  <!-- Hero Section -->
-  <section class="flex flex-col md:flex-row items-center justify-between px-8 md:px-20 py-16">
-    <!-- Left Text -->
-    <div class="max-w-lg text-center md:text-left">
-      <h1 class="text-sm uppercase mb-2">Welcome to LUGX</h1>
-      <h2 class="text-5xl font-extrabold mb-4"> BEST GAMING SITE EVER !Best Gaming Site Ever!</h2>
-      <p class="text-lg mb-6">
-        LUGX Gaming is a free Bootstrap 5 HTML CSS website template for your gaming websites. 
-        You can download and use this layout for commercial purposes. 
-        Please tell your friends about TemplateMo.
-      </p>
-    </div>
+  
+<section 
+class="rounded-b-3xl text-white font-sans flex flex-col md:flex-row items-center justify-between px-8 md:px-20 py-16 bg-cover bg-center"
+style="background-image: url('img/15_banner-bg.jpg');">
 
-    <!-- Right Image -->
-    <div class="relative">
-      <img src="img/banner-image.jpg" alt="Gaming Character" class="rounded-lg shadow-lg w-64 md:w-96">
-      <div class="absolute top-7 right-6 bg-blue-500 text-white font-bold py-3 px-4 rounded-full">$22</div>
+<div class="max-w-lg text-center md:text-left">
+  <h1 class="text-sm uppercase mb-2">Welcome to LUGX</h1>
+  <h2 class="text-5xl font-extrabold mb-4">BEST GAMING SITE EVER!</h2>
+  <p class="text-lg mb-6">
+    LUGX Gaming is a free Bootstrap 5 HTML CSS website template for your gaming websites. 
+    You can download and use this layout for commercial purposes. 
+    Please tell your friends about TemplateMo.
+  </p>
+
+  <div class="items-center mt-8">
+    <input type="text" placeholder="Type Something" 
+           class="w-full md:w-1/2 py-3 px-5 rounded-full text-gray-800 focus:outline-none shadow-lg">
+    <button class="bg-red-500 hover:bg-blue-600 text-white py-2 px-6 rounded-full ml-4">
+      SEARCH NOW
+    </button>
+  </div>
+</div>
+
+<div class="relative">
+  <img src="img/banner-image.jpg" alt="Gaming Character" class="rounded-lg shadow-lg w-64 md:w-96">
+  <div class="absolute top-7 right-6 bg-blue-500 text-white font-bold py-3 px-4 rounded-full">$22</div>
+</div>
+</section>
+
+<section class="bg-white py-16 px-8 md:px-20">
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+    <div class="p-8 rounded-lg shadow-lg">
+      <img src="img/1.png" alt="Free Storage Icon" class="bg-blue-500 w-16 mb-4">
+      <h3 class="text-xl font-bold">FREE STORAGE</h3>
     </div>
-  </section>
+    <div class="p-8 rounded-lg shadow-lg">
+      <img src="img/2.png" alt="User More Icon" class=" bg-blue-500 mx-auto w-16 mb-4">
+      <h3 class="text-xl font-bold">USER MORE</h3>
+    </div>
+    <div class="p-8 rounded-lg shadow-lg">
+      <img src="img/3.png" alt="Reply Ready Icon" class=" bg-blue-500 w-16 mb-4">
+      <h3 class="text-xl font-bold">REPLY READY</h3>
+    </div>
+    <div class="p-8 rounded-lg shadow-lg">
+      <img src="img/4.png" alt="Easy Layout Icon" class=" bg-blue-500 w-16 mb-4">
+      <h3 class="text-xl font-bold">EASY LAYOUT</h3>
+    </div>
+  </div>
+</section>
+
+
 </body>
 </html>
